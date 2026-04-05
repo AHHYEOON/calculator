@@ -45,13 +45,10 @@ class View(QWidget):
         self.resize(256,256)
         self.show()
     
-<<<<<<< HEAD
-    def activateMessage(self, text):
+
+    def setDisplay(self, text):
         self.te1.appendPlainText(text)
-=======
-    def setDisplay(self):
-        self.te1.appendPlainText("Button Clicked!")
->>>>>>> 3d60e7c6ff3b09189a2f00964e6021db73a601d9
+
     
     def clearMessage(self):
         self.te1.clear()
